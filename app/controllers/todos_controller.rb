@@ -15,7 +15,6 @@ class TodosController < ApplicationController
 
   # GET /todos/new
   def new
-    @todos = Todo.all
     @todo = Todo.new
   end
 
