@@ -125,20 +125,6 @@ function deleteTodo(todoId) {
         });
 }
 
-function deleteTodo(todoId) {
-    $.ajax({
-            type: "DELETE",
-            url: "/todos/" + todoId + ".json",
-            contentType: "application/json",
-            dataType: "json"
-        })
-
-        .done(function(data) {
-            $('tr[data-id="' + todoId + '"]').remove();
-            updateCounters();
-        });
-}
-
 $(document).ready(function() {
     $("input[type=checkbox]").bind('change', toggleDone);
     $("form").bind('submit', submitTodo);
