@@ -13,7 +13,7 @@ These are the steps I followed when working on this app
 3. Creating todos via Ajax
 4. Adding update and delete via Ajax
 
-Database Structure
+## Database Structure
 
 1. todos
   
