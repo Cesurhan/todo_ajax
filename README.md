@@ -27,7 +27,8 @@ Make sure you have [Ruby](https://www.ruby-lang.org/en)
 ```bash
 git clone git@github.com:Cesurhan/todoapp-ajax.git
 cd todoapp-ajax
-rails s
+rails db:setup
+rails server
 ```
 
 ## Related documentation
